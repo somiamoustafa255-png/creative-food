@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Creative Food Store</title>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    🍕 Creative Food Store 🍔
+  </header>
+
+  <!-- Toggle Button -->
+  <button class="toggle-btn" onclick="toggleSidebar()">☰</button>
+
+  <!-- Sidebar -->
+  <nav class="sidebar collapsed" id="sidebar">
+    <a class="navbar-brand" href="#">Menu</a>
+    <ul class="nav flex-column">
+      <li class="nav-item"><a class="nav-link active">Pizza</a></li>
+      <li class="nav-item"><a class="nav-link">Carrot</a></li>
+      <li class="nav-item"><a class="nav-link">Corn</a></li>
+      <li class="nav-item"><a class="nav-link">Mushrooms</a></li>
+      <li class="nav-item"><a class="nav-link">Avocado</a></li>
+      <li class="nav-item"><a class="nav-link">Banana</a></li>
+      <li class="nav-item"><a class="nav-link">Brussel Sprouts</a></li>
+      <li class="nav-item"><a class="nav-link">Sweet Potato</a></li>
+      <li class="nav-item"><a class="nav-link">Green Pepper</a></li>
+      <li class="nav-item"><a class="nav-link">Cinnamon</a></li>
+      <li class="nav-item"><a class="nav-link">Kiwifruit</a></li>
+      <li class="nav-item"><a class="nav-link">Blackberry</a></li>
+      <li class="nav-item"><a class="nav-link">Grapefruit</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="main-content expanded" id="mainContent">
+    <section>
+      <div class="container">
+        <div class="row" id="rowBody"></div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    © 2026 Creative Food Store | Designed with ❤️
+  </footer>
+
+  <!-- Loader -->
+  <div id="loading" class="d-none">
+    <span class="loader"></span>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
